@@ -70,17 +70,3 @@ print(str.split("i"))#remove the element from the string
 print(str1.partition("i"))
 print(str2.swapcase())#except first char. all in the upper case
 print(str3.title())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
