@@ -55,6 +55,7 @@ str1="NITESH TIWARI"
 str2="Tiwari Nitesh Harinarayan"
 str3="nITESH tIWARI"
 print(cource_name[11:4:-1])
+
 print(cource_name[5:12])
 print(cource_name)
 print(cource_name*10)#10 times will print the same message
@@ -70,3 +71,18 @@ print(str.split("i"))#remove the element from the string
 print(str1.partition("i"))
 print(str2.swapcase())#except first char. all in the upper case
 print(str3.title())
+
+
+#STRING REPLACE METHOD
+
+str1="Nitesh Tiwari"
+gmail="tiwarinites14@gamil.com"
+print(str1.replace("N","P"))#A maning can be change by replacing the character
+print(str1.replace("Nitesh","Anjali"))
+print(gmail.replace("@"," "))"""
+
+# FOR GIVING SPACING OR REMOVING THE SPACE
+string=" Nitesh "
+print(string.strip())
+print(string.lstrip())
+print(string.rstrip())
